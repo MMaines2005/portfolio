@@ -68,9 +68,10 @@
         
         display: inline-flex;
         width: 730px;
-        min-height: 300px;
+        min-height: 350px;
     }   
         .box_one{
+            min-height: 250;
             margin: 20px;
             flex: 2;
             
@@ -80,20 +81,31 @@
             min-height: 50px;
         }
         .box_two{
+            min-height: 250;
             margin: 20px;
 
             flex:2;
             
         }
         .box_three{
+            min-height: 250;
             margin: 20px;
 
             flex: 2;
             
         }
-        .sc_header {
+        .sc_header  {
             background-color: #8f8d99;
             color: #fdf6ed;
+        }
+        .sc_tech  {
+            background-color: #8f8d99;
+            color: #fdf6ed;
+        }
+        .pargh_1{
+            min-height: 100px;
+            background-color: #e3d8e2;
+            font-size:x-small;
         }
 .footer {
     
