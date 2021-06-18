@@ -1,19 +1,23 @@
- *{
+ /* *{
     outline: 2px dotted red;
-} 
+}  */
 
 .container {
     background-color: #4f3b44;
-    align-content: center;
+   display:flex;
     width: 780px;
     min-height: 500px;
 }
 
 
 .header {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    color: black;
     background-color: #f7f4f7;
     width: 780px;
-    min-height: 50px;
+    min-height: 10px;
 }
 
 .nav { 
@@ -39,7 +43,7 @@
         min-height: 250px;
     }
         .box_2{
-            margin-top: 15;
+            margin-top: 15px;
             background-color: #f7f4f7;
             border: 5px solid #c0c0c0;
         position: relative;
@@ -66,34 +70,61 @@
         }
     .sub_content{
         
-        display: inline-flex;
-        width: 730px;
+        
+        display: flex;
+        width: 780px;
         min-height: 350px;
     }   
         .box_one{
-            min-height: 250;
-            margin: 20px;
-            flex: 2;
             
+            max-width: 200px;
+            background-color: #fdf6ed;
+            min-height: 250px;
+            margin: 20px;
+            flex: 1;
+           
         }
-        .sub_content.scimg1{
-            flex:2;
+
+        .button {
+            color: #f7f4f7;
+            margin-left: 40px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            padding: 0px;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 120px;
+            height: 20px;
+            background-color: #407d61;           
+        }
+        .sub_content.sc_img1{
+            width: 80px;
             min-height: 50px;
         }
+        .sub_content.sc_img2{
+            display: inline-flex;
+            width: 30px;
+            min-height: 30px;
+        }
         .box_two{
-            min-height: 250;
+            max-width: 200px;
+            background-color: #fdf6ed;
+            min-height: 250px;
             margin: 20px;
 
-            flex:2;
+            flex:1;
             
         }
         .box_three{
-            min-height: 250;
+            max-width: 200px;
+            background-color: #fdf6ed;
+            min-height: 250px;
             margin: 20px;
 
-            flex: 2;
-            
+            flex: 1;            
         }
+
         .sc_header  {
             background-color: #8f8d99;
             color: #fdf6ed;
@@ -107,7 +138,22 @@
             background-color: #e3d8e2;
             font-size:x-small;
         }
+        .sub_content.sc_img2{
+        background-color: #f7f4f7;
+        }
 .footer {
-    
+    justify-content: space-around;
+    margin-left: 175px;
+    display: inline-block;
+    align-content: center;
+    width: 780px;
+    max-height: 50px;
+    flex-wrap: wrap;
+}
+p2{
+    padding: 10px;
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 75px;
     min-height: 50px;
 }
