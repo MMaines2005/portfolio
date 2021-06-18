@@ -67,13 +67,17 @@
     .sub_content{
         
         display: inline-flex;
-        width: 630px;
+        width: 730px;
         min-height: 300px;
     }   
         .box_one{
             margin: 20px;
             flex: 2;
             
+        }
+        .sub_content.scimg1{
+            flex:2;
+            min-height: 50px;
         }
         .box_two{
             margin: 20px;
@@ -86,6 +90,10 @@
 
             flex: 2;
             
+        }
+        .sc_header {
+            background-color: #8f8d99;
+            color: #fdf6ed;
         }
 .footer {
     
